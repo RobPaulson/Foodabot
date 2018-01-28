@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodaBot", "FoodaBot\FoodaBot.csproj", "{BA15638E-6421-4D8C-A113-EB8A6EADB809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackAPI", "SlackAPI\SlackAPI.csproj", "{0C0A58A8-174E-4A4C-907B-C3569144D15D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{4FCFC295-4B74-4DB2-B466-4E63D21E0B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackAPI.Console", "SlackAPI.Console\SlackAPI.Console.csproj", "{19140E48-E1A9-421D-86DB-5AF18EECFEF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodaCore", "FoodaCore\FoodaCore.csproj", "{64EB22BC-439D-42FF-8CBC-A8E25DA41A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YelpAPI", "YelpAPI\YelpAPI.csproj", "{79D127D6-500F-4DE7-AA1F-912FAB64128A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA15638E-6421-4D8C-A113-EB8A6EADB809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA15638E-6421-4D8C-A113-EB8A6EADB809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA15638E-6421-4D8C-A113-EB8A6EADB809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA15638E-6421-4D8C-A113-EB8A6EADB809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0A58A8-174E-4A4C-907B-C3569144D15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0A58A8-174E-4A4C-907B-C3569144D15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0A58A8-174E-4A4C-907B-C3569144D15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0A58A8-174E-4A4C-907B-C3569144D15D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19140E48-E1A9-421D-86DB-5AF18EECFEF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19140E48-E1A9-421D-86DB-5AF18EECFEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19140E48-E1A9-421D-86DB-5AF18EECFEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19140E48-E1A9-421D-86DB-5AF18EECFEF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EB22BC-439D-42FF-8CBC-A8E25DA41A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EB22BC-439D-42FF-8CBC-A8E25DA41A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EB22BC-439D-42FF-8CBC-A8E25DA41A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EB22BC-439D-42FF-8CBC-A8E25DA41A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D127D6-500F-4DE7-AA1F-912FAB64128A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D127D6-500F-4DE7-AA1F-912FAB64128A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D127D6-500F-4DE7-AA1F-912FAB64128A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D127D6-500F-4DE7-AA1F-912FAB64128A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C0A58A8-174E-4A4C-907B-C3569144D15D} = {4FCFC295-4B74-4DB2-B466-4E63D21E0B55}
+		{19140E48-E1A9-421D-86DB-5AF18EECFEF2} = {4FCFC295-4B74-4DB2-B466-4E63D21E0B55}
+		{79D127D6-500F-4DE7-AA1F-912FAB64128A} = {4FCFC295-4B74-4DB2-B466-4E63D21E0B55}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://robpaulson.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FoodaBot\\FoodaBot.csproj
+		SccProjectName1 = FoodaBot
+		SccLocalPath1 = FoodaBot
+		SccProjectUniqueName2 = SlackAPI\\SlackAPI.csproj
+		SccProjectTopLevelParentUniqueName2 = FoodaBot.sln
+		SccProjectName2 = SlackAPI
+		SccLocalPath2 = SlackAPI
+		SccProjectUniqueName3 = SlackAPI.Console\\SlackAPI.Console.csproj
+		SccProjectTopLevelParentUniqueName3 = FoodaBot.sln
+		SccProjectName3 = SlackAPI.Console
+		SccLocalPath3 = SlackAPI.Console
+		SccProjectUniqueName4 = FoodaCore\\FoodaCore.csproj
+		SccProjectName4 = FoodaCore
+		SccLocalPath4 = FoodaCore
+		SccProjectUniqueName5 = YelpAPI\\YelpAPI.csproj
+		SccProjectTopLevelParentUniqueName5 = FoodaBot.sln
+		SccProjectName5 = YelpAPI
+		SccLocalPath5 = YelpAPI
+	EndGlobalSection
+EndGlobal
